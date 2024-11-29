@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- script -->
+    <script src="scripts.js" defer></script>
+    <title>DevNotes</title>
+  </head>
+  <body>
+    <header>
+      <h1>DevNotes</h1>
+      <div class="search-container">
+        <i class="bi bi-search"></i>
+        <input
+          id="search-input"
+          type="text"
+          placeholder="Busque por uma nota"
+        />
+      </div>
+    </header>
+    <div class="add-note-container">
+      <button id="add-btn"><i class="bi bi-plus"></i></button>
+      <input id="note-value" type="text" placeholder="Digite uma tarefa" />
+    </div>
+    <div class="notes-container"></div>
+  </body>
+</html>
